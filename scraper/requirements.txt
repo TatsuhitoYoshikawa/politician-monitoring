@@ -1,0 +1,17 @@
+# Web フレームワーク
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# HTTP クライアント（スクレイピング・Rails API 呼び出し）
+httpx==0.27.0
+requests==2.31.0
+
+# HTML パース（Phase 2: ホームページスクレイピングで使用）
+beautifulsoup4==4.12.3
+lxml==5.2.1
+
+# バリデーション
+pydantic==2.7.1
+
+# 環境変数
+python-dotenv==1.0.1
